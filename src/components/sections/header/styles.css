@@ -1,0 +1,26 @@
+header {
+  grid-area: header;
+}
+
+header img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#menu1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: darkblue;
+  grid-area: nav;
+}
+
+@media only screen and (max-width:760px) {
+  #menu1 {
+		display: grid;
+		width: 100%;
+		grid-template-columns: auto;
+		background-color: #212121;
+		grid-area: nav;
+	}
+}

@@ -1,0 +1,17 @@
+article {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  padding: 1rem;
+  grid-area: article;
+}
+
+article p {
+  font-family: Georgia;
+  font-size: 2rem;
+}
+
+article h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
